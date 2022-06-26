@@ -11,7 +11,7 @@ declare module 'react-query/types/react/QueryClientProvider' {
 
 const queryClient = new QueryClient();
 
-function AmaddaApp({ Component, pageProps }: AppProps) {
+function MaelstromApp({ Component, pageProps }: AppProps) {
   return (
     <QueryClientProvider client={queryClient}>
       <ReactQueryDevtools initialIsOpen={false} />
@@ -20,4 +20,4 @@ function AmaddaApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default AmaddaApp;
+export default MaelstromApp;
