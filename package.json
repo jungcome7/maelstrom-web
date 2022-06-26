@@ -1,6 +1,13 @@
 {
   "name": "maelstrom-web",
   "packageManager": "yarn@3.2.1",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "sb": "start-storybook -p 6007",
+    "build:storybook": "build-storybook"
+  },
   "devDependencies": {
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
@@ -10,6 +17,7 @@
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   },
   "dependencies": {
