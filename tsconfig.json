@@ -19,7 +19,7 @@
       "@pages*": ["src/pages*"],
       "@pages": ["src/pages"],
       "@components*": ["src/components*"],
-      "@components/*": ["src/components/*"],
+      "@components": ["src/components"],
       "@features*": ["src/features*"],
       "@features": ["src/features"]
     }
