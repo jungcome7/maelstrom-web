@@ -1,7 +1,13 @@
-import React, { useState } from 'react';
+import { Header } from '@components';
+import React from 'react';
 
 function HomePage() {
-  return <>sasdfa</>;
+  return (
+    <>
+      <Header />
+      sample
+    </>
+  );
 }
 
 export default HomePage;

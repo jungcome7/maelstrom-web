@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@stitches/react", "virtual:0a697843f8a2bdf245cc9ecde1831ce18ffe99e6dd7d282b5c4e150f0fbf25df8e8068268c8b8599060bb776d22fa6719f19efd1ef38ebcd7baed288d62456e8#npm:1.2.8"],\
             ["@types/node", "npm:18.0.0"],\
             ["@types/react", "npm:18.0.14"],\
             ["@types/react-dom", "npm:18.0.5"],\
@@ -245,6 +246,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nodelib/fs.walk", "npm:1.2.8"],\
             ["@nodelib/fs.scandir", "npm:2.1.5"],\
             ["fastq", "npm:1.13.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@stitches/react", [\
+        ["npm:1.2.8", {\
+          "packageLocation": "./.yarn/cache/@stitches-react-npm-1.2.8-445a1042b8-029795323c.zip/node_modules/@stitches/react/",\
+          "packageDependencies": [\
+            ["@stitches/react", "npm:1.2.8"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:0a697843f8a2bdf245cc9ecde1831ce18ffe99e6dd7d282b5c4e150f0fbf25df8e8068268c8b8599060bb776d22fa6719f19efd1ef38ebcd7baed288d62456e8#npm:1.2.8", {\
+          "packageLocation": "./.yarn/__virtual__/@stitches-react-virtual-d0ffc01ac5/0/cache/@stitches-react-npm-1.2.8-445a1042b8-029795323c.zip/node_modules/@stitches/react/",\
+          "packageDependencies": [\
+            ["@stitches/react", "virtual:0a697843f8a2bdf245cc9ecde1831ce18ffe99e6dd7d282b5c4e150f0fbf25df8e8068268c8b8599060bb776d22fa6719f19efd1ef38ebcd7baed288d62456e8#npm:1.2.8"],\
+            ["@types/react", "npm:18.0.14"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1446,6 +1469,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["maelstrom-web", "workspace:."],\
+            ["@stitches/react", "virtual:0a697843f8a2bdf245cc9ecde1831ce18ffe99e6dd7d282b5c4e150f0fbf25df8e8068268c8b8599060bb776d22fa6719f19efd1ef38ebcd7baed288d62456e8#npm:1.2.8"],\
             ["@types/node", "npm:18.0.0"],\
             ["@types/react", "npm:18.0.14"],\
             ["@types/react-dom", "npm:18.0.5"],\
