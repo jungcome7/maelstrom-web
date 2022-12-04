@@ -1,7 +1,7 @@
 import { styled } from '@stitches/react';
 
 export default function Header() {
-  return <HeaderBlock>This is Sample Header!</HeaderBlock>;
+  return <HeaderBlock>This is Sample Header!!</HeaderBlock>;
 }
 
 const HeaderBlock = styled('header', {
